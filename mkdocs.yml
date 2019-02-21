@@ -1,0 +1,63 @@
+site_name: About MyContract
+site_description: Leading Platform for Smart Contract Creation, Deployment, Interaction & Token Offering
+theme:
+  name: 'material'
+  custom_dir: material_override
+  logo: 'images/logo.svg'
+  favicon: 'images/favicon.ico'
+  feature:
+    tabs: true
+
+markdown_extensions:
+  - admonition
+  - mdx_math:
+      enable_dollar_delimiter: True
+  - markdown.extensions.extra
+  - markdown.extensions.toc:
+      permalink: True
+  - codehilite:
+      guess_lang: false
+
+extra_javascript:
+    - js/MathJax.js?config=TeX-AMS_HTML
+
+extra_css:
+    - https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css
+    - css/style.css
+
+extra:
+    disqus:
+    social:
+        - type: 'github'
+          link: 'https://github.com/XinFinOrg/How-To-MyContract'
+        - type: 'twitter'
+          link: 'https://twitter.com/xinfinf'
+        - type: 'reddit'
+          link: 'https://www.reddit.com/r/xinfin/'
+        - type: 'facebook'
+          link: 'https://www.facebook.com/pages/xinfin'
+        - type: 'telegram'
+          link: 'https://t.me/xinfintalk'
+        - type: 'medium'
+          link: 'https://medium.com/xinfin'
+
+site_url: https://www.mycontract.co
+repo_url: https://github.com/XinFinOrg/How-To-MyContract
+repo_name: XinFinOrg/How-to-MyContract
+google_analytics: ['UA-124597188-1', 'docs.xinfin.org']
+
+nav:
+    - Get Started:
+      - Introduction: index.md
+      - Product Overview: get-started/productoverview.md
+    # - XinFin Network client:
+    #   - Getting started: misc/wip.md
+    #   - Contributing: misc/wip.md
+    - Guide:
+        - Guide/how_to_setup.md
+        - Guide/Demonestration.md
+    - Media Room:
+        - Media/Articles.md
+    - FAQ:
+        - faq/faq.md
+copyright: If you wish to improve this site, please <a href="https://github.com/XinFinOrg/How-To-MyContract/issues/new"><i class="fa fa-github"></i> open an issue</a> or <a href="https://github.com/XinFinOrg/How-To-MyContract/issues/compare"><i class="fa fa-github"></i> send a pull request</a>.<br>Mycontract v0.1.0. XinFin Network Project 2018.

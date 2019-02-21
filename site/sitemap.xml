@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+     <loc>https://www.mycontract.co/</loc>
+     <lastmod>2019-02-21</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.mycontract.co/general/about/</loc>
+     <lastmod>2019-02-21</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.mycontract.co/get-started/productoverview/</loc>
+     <lastmod>2019-02-21</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.mycontract.co/Guide/how_to_setup/</loc>
+     <lastmod>2019-02-21</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://www.mycontract.co/faq/faq/</loc>
+     <lastmod>2019-02-21</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+</urlset>
