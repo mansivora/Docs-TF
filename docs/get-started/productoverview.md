@@ -1,69 +1,37 @@
-﻿# Overview of MyContract.co
-
-MyContract.co a WebApp that allows users to create smart contracts for issuing tokens to crowdsale or asset tokenization without a need for any programming expertise, just in a few clicks. MyContract.co initially allows contract creation on Ethereum public blockchain with any of the ERC standards for issuing or tokenizing an array of asset classes: fungible cryptocurrencies and tradable assets (ERC 20 and ERC 223), non-fungible assets (ERC 721), or fixed income financial instruments (ERC 888).  
+﻿# **Trade Finance Overview**
 
 ![overview](/assets/overview.png)
 
-* **Current Problem Statement**
+According to the International Chamber of Commerce (ICC) 2017 report, world trade flows will grow at an annual rate of about 4.3% to reach nearly 19USD Trillion by 2020. Majority of this trade is driven by global infrastructure development due to increased population and urbanization. As per Global infrastructure hub 2017 report, by 2040, the global population will grow by almost 2 Billion people a 25% increase. Also, rural to urban migration will skew this growth more towards urban areas leading to an urban population growing by 46 USD. This will trigger massive demand for infrastructure support, especially in an urban area and to keep pace with this growth, the global infrastructure investment needs are forecasted to reach 94 USD Trillion by 2040, which is an average of 3.7 USD Trillion per year. Based on current spending levels, the shortfall is more than 18 USD Trillion which is around a Trillion dollar gap every year.
 
-Tokenization on Blockchain is a steady trend for coming years. It seems that everything is being tokenized on Blockchain from paintings, diamonds and company stocks to real estate. But the main problem stems from the fact that so far no country has a solid regulation for cryptocurrency. For example, what happens if a company that handles tokenization sells the property? Token owners just own tokens. They have no legal rights on the property and thus are not protected by the law. Therefore, legal changes are needed to accommodate these new business models.
+To fuel this massive infrastructure growth, financial institutions and banks are supposed to pump money into the ecosystem. However, decreasing trust factor and increasing risk have made it difficult for businesses and individuals to access trade finance or they are denied trade finance due to increased regulatory and compliance limitations of traditional financing system.
 
-Problem is that this system brings us back some sort of centralization. The whole idea of Blockchain and especially smart contracts is to create a trustless environment. While this is possible to achieve when tokenizing digital assets, with real world, physical assets, this is not the case. Therefore, we have to accept a certain dose of centralization.
+Of the global financing needs today, infrastructure remains the most sizeable and critical financing need for both developed as well as developing countries. And, even after being pivotal to any country’s social-economic progress, infrastructure financing still remains underserved. Why? Financing sector suffers from a lot of inefficiencies. Infrastructure financing being the most unglamorous industry receives very less support from the private sector leading to an increasing tax burden on govt. and consequently on the general public. Inefficient, time-consuming and paper-based financing further adds to the cost of capital. Even finance rates vary a lot worldwide and presence of intermediaries makes centralized funds inaccessible to people. Therefore, the present financial ecosystem is incapable of fulfilling the burgeoning financing demand, leading to huge loss of opportunity for global trade and in turn, economic development which requires a disruptive technology like blockchain to innovate financing mechanism to complement traditional banking and finance.
 
-Smart contracts, token issuing, Commodities tokenization, Currencies tokenization, Exclusive Goods Tokenization, Private Shares Tokenisation and ICOs are some of the major services that XinFin has been providing their clients for quite some time and subsequently occupies significant working time of the company. This results in developers working on repetitive tasks, where this effort could be better invested. As a result, the company felt a dire need to automate this process. By exercising the technical assets within XinFin it developed an in-house solution that enables their clients to easily and quickly service these needs themselves, with no coding required.
+**A word about TradeFinex.org**
 
-* **How is Mycontract Useful**
+Powered by XDC protocol, TradeFinex platform enables peer-to-peer transactions between financiers, suppliers and beneficiaries. A conceptualized marketplace platform, TradeFinex connects global participants of the trade and finance and enable them for global contracting, financing, payments and settlements.
 
-Smart Contract and Tokenization is a method to convert rights to an asset into a digital token. By Tokenizing assets, we have a digital representation of a real-world asset on a blockchain. The advocates of the new “Tokenized” economy claim that slicing and dicing assets into fractions of ownership on a blockchain will enhance liquidity, price discovery and accessibility to high value illiquid assets at a fraction of current transaction costs.
+TradeFinex platform is for individuals, governments, regulators, financial institutions, corporates and others who regularly engage in trade and finance and look for new means of low-cost financing to complement traditional finance. Through this platform, beneficiaries can raise money literally from any part of the world.
 
-With liquidity, investors have the flexibility to sell private securities for an efficient market price, increasing marketability and unlocking greater potential asset value for issuers. There are many asset categories that can benefit, Mycontract.co can be as Tokenization platform provider to such industries and asset categories.
+XinFin is leveraging the power of TradeFinex, its decentralized enterprise-grade hybrid blockchain enabled trade and finance platform. Offering the benefits of immutability, security and peer-to-peer settlements features of XDC protocol, XinFin’s TradeFinex platform would help bridge the $15 trillion global infrastructure gap.
 
-The primary objective of Mycontract.co is to provide Token-as-a-Service (TAAS) which will eventually result in greater liquidity, real-time market pricing, cost savings, and transparency.
+**How is TradeFinex helping unbanked population get easier access to funds?**
 
-Advantages of Tokenization using Mycontract.co
+TradeFinex recently completed a pilot in a remote area of India. Irinse Foundation along with TradeFinex successfully completed real trial transaction in a remote location of Asia where they got sewing machines, computers and network infrastructures financed by independent financiers in a standard SandBox limit. The platform was trialled in India taking the support of local governing bodies. Similar kind of projects is being financed in various developing countries across the globe.
 
-    Unlock Liquidity of your physical asset or business
-    Enforce compliance on secondary trades
-    Attract New Investors
-    Lower investment minimums by unbundling
-    Create new fund types by rebundling
-    Reach global investors
-    Faster, Easier, Low-Cost Capital Formation
-    Tokenize individual assets
-    Enforce regulations through technology
-    Maintain accurate records
+[TradeFinex on XinFin Hybrid Blockchain enables Unbanked Population with P2P Trade Finance](https://youtu.be/bYIJETgOY_g)
 
-Industrial Use Cases : Any Industries can use the platform and bring the asset to tokenization world.
+**TradeFinex-An Open API based platform for trade finance**
 
+Enterprises, governments, institutions can use TradeFinex, an Open API based platform; as a tool for fulfilling their trade finance needs. Due to the massive response from various ecosystems and fintech partners worldwide, TradeFinex is now evolving into an Open API platform with which many businesses, Fintechs, rural bodies, ERP systems can connect to.
 
-* **What you can build on Mycontract.co**
+XinFin.org successfully demonstrated financing of a solar plant using blockchain powered TradeFinex platform as a tool. The simulation involved digitizing and representing a solar plant on the blockchain and demonstrated that any projects including those of national infrastructure importance can be financed peer to peer without burdening the treasury. Demand for cross-border finance can be met by greater cooperation between governments and Blockchain capital by the creation of new models of investment and financing.
 
-Smart Contracts :
+**TradeFinex Infrastructure as an Asset Class (IAC) Sandbox-Consortium Membership**
 
-    ERC20 - used for token Smart Contracts
-    ERC223 - Provides extra safety during token transfers
-    ERC721 - Asset Tokenisation, STO
+The TradeFinex.org team has also initiated a consortium with open invitations to address peer-to-peer trade finance and asset tokenization of real-world assets by keeping regulatory bodies, beneficiaries, financiers and fintech companies around Consortium-led governance will make TradeFinex truly decentralized which allows it to sync with the core philosophy of blockchain.
 
-Crowdsale Contract : This is a Audited smart contract with additional features for eg, Bonus rates, Send tokens to Investor etc.
+TradeFinex invites Global Public Investors (GPIs), regulators and financial & government institutions to be a part of this consortium. All consortium members will both be a part of the ecosystem and will help in introducing the right instruments, their standardization and closely working with regulators for holistic business development. Members interested in consortium membership can click on https://www.tradefinex.org/publicv/partnership and become part of the global campaign.
 
-Automatic Contract Deployment : Automatic & Manual Deployment with various ways to access wallets.
-
-Contract Interaction : This Features can enable easy smart contract interaction with built in interaction platform.
-
-Tokenization Platform : This platform provides convenient way to conduct initial coin offering with admin dashboard for KYC and AML support.
-
-Currency Support : Ethereum and Bitcoin Support, Top 10 Cryptocurrency Support in near future and Secured Gateway for Keystore handling & withdrawal.
-
-
-* **Technical Overview**
-
-Mycontract.co an open source platform for Smart Contract Generation, Deployment, Interaction and Tokenization Platform is build on below mentioned technologies:
-
-    Express Framework of Node.js for backend support.
-    EJS(Embedded JavaScript templates) templating engine with HTML, CSS, Javascript/Jquery for Front end.
-    PostgreSQL for database.
-    Web3.js is used for blockchain interactions.
-
-All files structures as per the standard the code Node.js Express framework.
-
-
+Although tradefinex.org is not open for the transaction, it will soon be unveiling its APIs to the public so that interested community members can build use cases and applications on its regulatory compliant XinFin Hybrid 

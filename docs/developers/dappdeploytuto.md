@@ -1,1 +1,0 @@
-For developers who are interested in building and deploying DApps on XinFin Network, please visit our website https://www.xinfin.org for a detailed guideline.

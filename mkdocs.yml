@@ -1,7 +1,7 @@
-site_name: About MyContract
-site_description: Leading Platform for Smart Contract Creation, Deployment, Interaction & Token Offering
+site_name: TradeFinex
+site_description: Peer to Peer decentralized Trade and Finance using Blockchain Technology
 theme:
-  name: 'material'
+  name: 'readthedocs'
   custom_dir: material_override
   logo: 'images/logo.svg'
   favicon: 'images/favicon.ico'
@@ -29,7 +29,7 @@ extra:
     disqus:
     social:
         - type: 'github'
-          link: 'https://github.com/XinFinOrg/How-To-MyContract'
+          link: 'https://github.com/XinFinOrg/Docs-TF'
         - type: 'twitter'
           link: 'https://twitter.com/xinfinf'
         - type: 'reddit'
@@ -41,23 +41,21 @@ extra:
         - type: 'medium'
           link: 'https://medium.com/xinfin'
 
-site_url: https://www.mycontract.co
-repo_url: https://github.com/XinFinOrg/How-To-MyContract
-repo_name: XinFinOrg/How-to-MyContract
-google_analytics: ['UA-124597188-1', 'docs.xinfin.org']
+site_url: https://www.tradefinex.org
+repo_url: https://github.com/XinFinOrg/Docs-TF
+repo_name: XinFinOrg/Docs-TF
 
 nav:
-    - Get Started:
-      - Introduction: index.md
-      - Product Overview: get-started/productoverview.md
-    # - XinFin Network client:
-    #   - Getting started: misc/wip.md
-    #   - Contributing: misc/wip.md
-    - Guide:
+    - Introduction: index.md
+    - Getting Started:
         - Guide/how_to_setup.md
-        - Guide/Demonestration.md
+        - Guide/API.md
     - Media Room:
         - Media/Articles.md
     - FAQ:
-        - faq/faq.md
-copyright: If you wish to improve this site, please <a href="https://github.com/XinFinOrg/How-To-MyContract/issues/new"><i class="fa fa-github"></i> open an issue</a> or <a href="https://github.com/XinFinOrg/How-To-MyContract/issues/compare"><i class="fa fa-github"></i> send a pull request</a>.<br>Mycontract v0.1.0. XinFin Network Project 2018.
+        - faq/General.md
+        - faq/Advantage.md
+        - faq/Participants.md
+        - faq/ProjectFinancing.md
+        - faq/Contracting.md
+copyright: If you wish to improve this site, please <a href="https://github.com/XinFinOrg/Docs-TF/issues/new"><i class="fa fa-github"></i> open an issue</a> or <a href="https://github.com/XinFinOrg/Docs-TF/issues/compare"><i class="fa fa-github"></i> send a pull request</a>.<br>TradeFinex.
