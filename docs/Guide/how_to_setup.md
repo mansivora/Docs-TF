@@ -1,65 +1,102 @@
-#
+**1. Setup a MasterNode**
 
 **Prerequisite**
 
-Xampp
+ 1. Operating System : Ubuntu 16.04 64-bit or higher Should be facing internet directly with public IP & without NAT
 
-Clone this Repo directly into xampp/htdocs path.
+ 2. Tools: Git, Docker, Docker Compose
 
-**Front End**
+ 3. Network Ports
 
-Go to - application/config.php
+Following network ports need to be open for the nodes to communicate.
 
-Set - $config['base_url'] = 'http://example.com/' or 'https://example.com/'
+8545  TCP - RPC <br>   
+30303 TCP/UDP - XDC
 
-Go to - application/database.php
+**How to Setup Masternode ?**
 
-Set -
-'hostname' => 'localhost', (change required if needed)
-'username' => '',
-'password' => '',
-'database' => '',
+**0. Install Git**
 
-Go to - application/emailc.php
+* Check whether git is preinstalled.
 
-Set -
+    > git --version
 
-$config['$econfig'] = array('protocol' => 'smtp',
+If present, output will be something like git version 2.17.1. in this case, go to step a.
 
-'smtp_host' => '', /* email gateway host /
+* Otherwise follow the below steps.
 
-'smtp_port' => 465,
+    1. sudo apt update
+    2. sudo apt install git
+    3. git --version
 
-'smtp_user' => '', / email gateway username /
+* Configure Git.
 
-'smtp_pass' => '', / email gateway password */
+    1. git config --global user.name "Your Name"
+    2. git config --global user.email "youremail@domain.com"
 
-'wordwrap' => TRUE,
+**a. Clone repository**
 
-'charset' => 'utf-8');
+Run the following commands on your terminal.
+
+    1. git clone [https://github.com/XinFinOrg/XinFin-Node.git](https://github.com/XinFinOrg/XinFin-Node.git)
+    2. cd XinFin-Node
+
+The git clone command will create a new folder XinFin-Node. cd XinFin-Node command changes the current directory to XinFin-Node
+
+**b. Install docker & docker-compose**
+
+       sudo ./install\_docker.sh
+
+The above command will install docker and docker-compose for you.
+
+**c. Update .env file with details**
+
+* Copy a env.example file from XinFin-Node directory and name it as a .en
+* Open .env file and edit values for following
+
+     1. INSTANCE_NAME : A Display name of your masternode
+     2. CONTACT_DETAILS : Your Email ID
+
+![overview](/assets/xinfin-node.png)
+
+![overview](/assets/masternode-.env.png)
 
 
-**adminpanel**
+**d. Start your Node**
 
-Go to - application/adminpanel/config.php
+        sudo docker-compose -f docker-services.yml up -d
 
-Set - $config['base_url'] = 'http://example.com/adminpanel/' or 'https://example.com/adminpanel/'
+This will start a Masternode and connect to a XinFin Testnet.
 
-Go to - application/adminpanel/constants.php
+You should be able to see your node listed on this page: [XinFin Network](https://www.xinfin.network) (Make sure, you are connected to XinFin Testnet. If not, switch to Tesnet on top right corner)
 
-Set to - define('BASE_FRONT_URL', 'http://example.com/' or 'https://example.com/');
+Your coinbase address can be found in xdcchain/coinbase.txt file.
 
-Go to - application/adminpanel/database.php
+![overview](/assets/masternode-listing.png)
 
-Set to -
+**2. Stake XDC**
 
-'hostname' => 'localhost', (change required if needed)
+  **Create XDC Wallet**
 
-'username' => '',
+      > Visit http://xinfin.network/#webWallet and Click on create a new wallet.
+      > you can create use a web wallet or download eWallet app from Google Play Store.
+      > Create an account
+      > Store your private key at a safe place (Hardware wallet is recommended)
 
-'password' => '',
-
-'database' => '',
+![overview](/assets/xinfin_wallet.png)
 
 
-**[Click Here for Demo](https://www.youtube.com/watch?v=C0DF2A5ssk8)**
+   **Buy XDC**
+
+     > get your free XDC to use on XinFin Testnet
+     > Visit XinFin TestNet Faucet http://xinfin.network/#getTestXDC.
+     > Add your wallet address created in step 2.b and request XDC
+
+![overview](/assets/masternode-faucet.png)
+
+   **Upload Kyc**
+
+    > Visit http://xinfin.network/#masternode
+    > Upload a notarized kyc
+
+![overview](/assets/masternode-node.png)
