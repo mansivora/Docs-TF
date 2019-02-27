@@ -149,41 +149,111 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="_1"><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+                <p><strong>1. Setup a MasterNode</strong></p>
 <p><strong>Prerequisite</strong></p>
-<p>Xampp</p>
-<p>Clone this Repo directly into xampp/htdocs path.</p>
-<p><strong>Front End</strong></p>
-<p>Go to - application/config.php</p>
-<p>Set - $config['base_url'] = 'http://example.com/' or 'https://example.com/'</p>
-<p>Go to - application/database.php</p>
-<p>Set -
-'hostname' =&gt; 'localhost', (change required if needed)
-'username' =&gt; '',
-'password' =&gt; '',
-'database' =&gt; '',</p>
-<p>Go to - application/emailc.php</p>
-<p>Set -</p>
-<p>
-<script type="math/tex">config['</script>econfig'] = array('protocol' =&gt; 'smtp',</p>
-<p>'smtp_host' =&gt; '', /* email gateway host /</p>
-<p>'smtp_port' =&gt; 465,</p>
-<p>'smtp_user' =&gt; '', / email gateway username /</p>
-<p>'smtp_pass' =&gt; '', / email gateway password */</p>
-<p>'wordwrap' =&gt; TRUE,</p>
-<p>'charset' =&gt; 'utf-8');</p>
-<p><strong>adminpanel</strong></p>
-<p>Go to - application/adminpanel/config.php</p>
-<p>Set - $config['base_url'] = 'http://example.com/adminpanel/' or 'https://example.com/adminpanel/'</p>
-<p>Go to - application/adminpanel/constants.php</p>
-<p>Set to - define('BASE_FRONT_URL', 'http://example.com/' or 'https://example.com/');</p>
-<p>Go to - application/adminpanel/database.php</p>
-<p>Set to -</p>
-<p>'hostname' =&gt; 'localhost', (change required if needed)</p>
-<p>'username' =&gt; '',</p>
-<p>'password' =&gt; '',</p>
-<p>'database' =&gt; '',</p>
-<p><strong><a href="https://www.youtube.com/watch?v=C0DF2A5ssk8">Click Here for Demo</a></strong></p>
+<ol>
+<li>
+<p>Operating System : Ubuntu 16.04 64-bit or higher Should be facing internet directly with public IP &amp; without NAT</p>
+</li>
+<li>
+<p>Tools: Git, Docker, Docker Compose</p>
+</li>
+<li>
+<p>Network Ports</p>
+</li>
+</ol>
+<p>Following network ports need to be open for the nodes to communicate.</p>
+<p>8545  TCP - RPC <br> <br />
+30303 TCP/UDP - XDC</p>
+<p><strong>How to Setup Masternode ?</strong></p>
+<p><strong>0. Install Git</strong></p>
+<ul>
+<li>
+<p>Check whether git is preinstalled.</p>
+<blockquote>
+<p>git --version</p>
+</blockquote>
+</li>
+</ul>
+<p>If present, output will be something like git version 2.17.1. in this case, go to step a.</p>
+<ul>
+<li>
+<p>Otherwise follow the below steps.</p>
+<ol>
+<li>sudo apt update</li>
+<li>sudo apt install git</li>
+<li>git --version</li>
+</ol>
+</li>
+<li>
+<p>Configure Git.</p>
+<ol>
+<li>git config --global user.name "Your Name"</li>
+<li>git config --global user.email "youremail@domain.com"</li>
+</ol>
+</li>
+</ul>
+<p><strong>a. Clone repository</strong></p>
+<p>Run the following commands on your terminal.</p>
+<div class="codehilite"><pre><span></span>1. git clone [https://github.com/XinFinOrg/XinFin-Node.git](https://github.com/XinFinOrg/XinFin-Node.git)
+2. cd XinFin-Node
+</pre></div>
+
+
+<p>The git clone command will create a new folder XinFin-Node. cd XinFin-Node command changes the current directory to XinFin-Node</p>
+<p><strong>b. Install docker &amp; docker-compose</strong></p>
+<div class="codehilite"><pre><span></span>   sudo ./install\_docker.sh
+</pre></div>
+
+
+<p>The above command will install docker and docker-compose for you.</p>
+<p><strong>c. Update .env file with details</strong></p>
+<ul>
+<li>Copy a env.example file from XinFin-Node directory and name it as a .en</li>
+<li>
+<p>Open .env file and edit values for following</p>
+<ol>
+<li>INSTANCE_NAME : A Display name of your masternode</li>
+<li>CONTACT_DETAILS : Your Email ID</li>
+</ol>
+</li>
+</ul>
+<p><img alt="overview" src="/assets/xinfin-node.png" /></p>
+<p><img alt="overview" src="/assets/masternode-.env.png" /></p>
+<p><strong>d. Start your Node</strong></p>
+<div class="codehilite"><pre><span></span>    sudo docker-compose -f docker-services.yml up -d
+</pre></div>
+
+
+<p>This will start a Masternode and connect to a XinFin Testnet.</p>
+<p>You should be able to see your node listed on this page: <a href="https://www.xinfin.network">XinFin Network</a> (Make sure, you are connected to XinFin Testnet. If not, switch to Tesnet on top right corner)</p>
+<p>Your coinbase address can be found in xdcchain/coinbase.txt file.</p>
+<p><img alt="overview" src="/assets/masternode-listing.png" /></p>
+<p><strong>2. Stake XDC</strong></p>
+<p><strong>Create XDC Wallet</strong></p>
+<div class="codehilite"><pre><span></span>  &gt; Visit http://xinfin.network/#webWallet and Click on create a new wallet.
+  &gt; you can create use a web wallet or download eWallet app from Google Play Store.
+  &gt; Create an account
+  &gt; Store your private key at a safe place (Hardware wallet is recommended)
+</pre></div>
+
+
+<p><img alt="overview" src="/assets/xinfin_wallet.png" /></p>
+<p><strong>Buy XDC</strong></p>
+<div class="codehilite"><pre><span></span> &gt; get your free XDC to use on XinFin Testnet
+ &gt; Visit XinFin TestNet Faucet http://xinfin.network/#getTestXDC.
+ &gt; Add your wallet address created in step 2.b and request XDC
+</pre></div>
+
+
+<p><img alt="overview" src="/assets/masternode-faucet.png" /></p>
+<p><strong>Upload Kyc</strong></p>
+<div class="codehilite"><pre><span></span>&gt; Visit http://xinfin.network/#masternode
+&gt; Upload a notarized kyc
+</pre></div>
+
+
+<p><img alt="overview" src="/assets/masternode-node.png" /></p>
               
             </div>
           </div>
