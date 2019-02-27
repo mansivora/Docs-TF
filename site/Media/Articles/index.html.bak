@@ -8,7 +8,7 @@
   
   
   <link rel="shortcut icon" href="../../img/favicon.ico">
-  <title>Participants - TradeFinex</title>
+  <title>Articles - TradeFinex</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
@@ -19,9 +19,9 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Participants";
-    var mkdocs_page_input_path = "faq\\Participants.md";
-    var mkdocs_page_url = "/faq/Participants/";
+    var mkdocs_page_name = "Articles";
+    var mkdocs_page_input_path = "Media\\Articles.md";
+    var mkdocs_page_url = "/Media/Articles/";
   </script>
   
   <script src="../../js/jquery-2.1.1.min.js" defer></script>
@@ -38,7 +38,7 @@
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
       <div class="wy-side-nav-search">
-        <a href="https://www.tradefinex.org" class="icon icon-home"> TradeFinex</a>
+        <a href="../.." class="icon icon-home"> TradeFinex</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
@@ -74,9 +74,12 @@
 		
     <span class="caption-text">Media Room</span>
     <ul class="subnav">
-                <li class="">
+                <li class=" current">
                     
-    <a class="" href="../../Media/Articles/">Articles</a>
+    <a class="current" href="./">Articles</a>
+    <ul class="subnav">
+            
+    </ul>
                 </li>
     </ul>
 	    </li>
@@ -87,26 +90,23 @@
     <ul class="subnav">
                 <li class="">
                     
-    <a class="" href="../General/">General</a>
+    <a class="" href="../../faq/General/">General</a>
                 </li>
                 <li class="">
                     
-    <a class="" href="../Advantage/">Advantage</a>
-                </li>
-                <li class=" current">
-                    
-    <a class="current" href="./">Participants</a>
-    <ul class="subnav">
-            
-    </ul>
+    <a class="" href="../../faq/Advantage/">Advantage</a>
                 </li>
                 <li class="">
                     
-    <a class="" href="../ProjectFinancing/">ProjectFinancing</a>
+    <a class="" href="../../faq/Participants/">Participants</a>
                 </li>
                 <li class="">
                     
-    <a class="" href="../Contracting/">Contracting</a>
+    <a class="" href="../../faq/ProjectFinancing/">ProjectFinancing</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../faq/Contracting/">Contracting</a>
                 </li>
     </ul>
 	    </li>
@@ -133,14 +133,14 @@
     
       
         
-          <li>FAQ &raquo;</li>
+          <li>Media Room &raquo;</li>
         
       
     
-    <li>Participants</li>
+    <li>Articles</li>
     <li class="wy-breadcrumbs-aside">
       
-        <a href="https://github.com/XinFinOrg/Docs-TF/edit/master/docs/faq/Participants.md"> Edit on XinFinOrg/Docs-TF</a>
+        <a href="https://github.com/XinFinOrg/Docs-TF/edit/master/docs/Media/Articles.md"> Edit on XinFinOrg/Docs-TF</a>
       
     </li>
   </ul>
@@ -149,18 +149,7 @@
           <div role="main">
             <div class="section">
               
-                <div class="admonition quote">
-<p class="admonition-title">Who is a Beneficiary?</p>
-<p>Beneficiary is an individual, an institution, a community or the government that is looking for project finance or to procure goods and services. The financing could be for procuring assets and setting up infrastructure (i.e. Hospital equipment, farm equipment, solar plant, roads, railways etc.) </p>
-</div>
-<div class="admonition quote">
-<p class="admonition-title">Who is a Supplier?</p>
-<p>A supplier is an individual or a company that supplies goods or/and services to another organization. A supplier could be a product manufacturer, services provider or even a distributor. Using TradeFinex, the suppliers will get access to global customer base that is willing to undertake trade and financing activities. </p>
-</div>
-<div class="admonition quote">
-<p class="admonition-title">Who is a Financier?</p>
-<p>Financier is an individual, an institution or a company whose business is providing, investing, or lending money. A financier is someone who is actively looking to invest in projects according to his sectorial alignment for attractive return on investment (RoI). On TradeFinex platform, a Financier may finance full project or a part of the project along with other financiers. </p>
-</div>
+                <h1 id="_1"><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
               
             </div>
           </div>
@@ -168,10 +157,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../ProjectFinancing/" class="btn btn-neutral float-right" title="ProjectFinancing">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../../faq/General/" class="btn btn-neutral float-right" title="General">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../Advantage/" class="btn btn-neutral" title="Advantage"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../../Guide/API/" class="btn btn-neutral" title="API"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -199,10 +188,10 @@
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../Advantage/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../../Guide/API/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../ProjectFinancing/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../../faq/General/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
